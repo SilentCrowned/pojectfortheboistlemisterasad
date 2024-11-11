@@ -1,0 +1,79 @@
+body {
+    background-image: url("pics/bodybg.jpg");
+    margin: 0 0 0 0;
+}
+
+header {
+    background-image: url("pics/header.jpg");
+    background-size: cover;
+    height:2cm;
+    margin: 1cm;
+    color: white;
+    padding: 2%;
+}
+
+em {
+    font-family: Papyrus;
+    font-weight: 700;
+}
+
+p {
+    font-family: Century, 'Gill sans', sans-serif;
+    font-style: oblique;
+    font-weight: 900;
+    color:rgb(253, 255, 253)
+}
+
+section {
+    margin:auto;
+    width:80%;
+    height: 83cm;
+    background-image: url("pics/bg.jpg");
+    padding: 2cm 20px 10px 20px;
+    color: aliceblue;
+}
+
+table {
+    margin:auto;
+    width: 100%;
+    background-image: url("pics/tablebg.jpg");
+    color: black;
+    padding: 10px 5px 10px 5px;
+    border-spacing: 7px;
+}
+
+td {
+    padding: 10px;
+}
+
+span {
+    color: red;
+    font-style: oblique;
+    font-weight: 800;
+    text-decoration: underline;
+}
+
+#customer {
+    height: 25%;
+}
+
+tr {
+    align-items: center;
+    text-align: center;
+}
+
+#sub {
+    background-color: blueviolet;
+}
+
+textarea {
+    width: 90%;
+    height: 5cm;
+}
+
+footer {
+    background-image: url("pics/footerbg.jpg");
+    margin:1cm auto;
+    padding:5%;
+    position: relative;
+}
