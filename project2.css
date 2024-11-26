@@ -27,7 +27,7 @@ p {
 section {
     margin:auto;
     width:80%;
-    height: 83cm;
+    height: 91cm;
     background-image: url("pics/bg.jpg");
     padding: 2cm 20px 10px 20px;
     color: aliceblue;
@@ -36,10 +36,13 @@ section {
 table {
     margin:auto;
     width: 100%;
-    background-image: url("pics/tablebg.jpg");
     color: black;
     padding: 10px 5px 10px 5px;
     border-spacing: 7px;
+}
+
+#books {
+    background-image: url("pics/tablebg.jpg");
 }
 
 td {
@@ -75,5 +78,4 @@ footer {
     background-image: url("pics/footerbg.jpg");
     margin:1cm auto;
     padding:5%;
-    position: relative;
 }

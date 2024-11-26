@@ -1,0 +1,51 @@
+* {
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+
+body {
+    background-image: url("pics/bodybg.jpg");
+}
+
+#header {
+    padding:10px;
+    text-align: center;
+    background-image: url("pics/header.jpg");
+}
+
+
+#nav {
+    background-color:rgb(213, 192, 233);
+    padding:20px 10px 20px 10px;
+    margin: 20px 1cm 20px 1cm;
+    width: 90%;
+}
+
+.container {
+    margin:20px 1cm 20px 1cm;
+    width:90%;
+    padding:1cm 5px 1cm 5px;
+    text-align: center;
+    background-color: blueviolet;
+    color:white;
+}
+
+.price {
+    color:rgb(0, 255, 191);
+    font-weight: 900;
+}
+
+#bundle {
+    background-color: rgb(217, 159, 255);
+    color:black;
+}
+
+.menu {
+    margin:auto;
+    width: 100%;
+    color: black;
+    padding: 10px 5px 10px 5px;
+    border-spacing: 7px;
+    background-color: hotpink;
+}
+

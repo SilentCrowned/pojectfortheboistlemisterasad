@@ -10,13 +10,13 @@
     <form>
         <center>
             <header>
-                <h1>Abandoned Archives</h1><br>
+                <h1>Relics and Archives</h1><br>
                 <img src="pics/cat1.jpg" height="100">
             </header>
             <section>
                 <h3>Library of Ruina</h3>
                 <p>"A reader lives a thousand lives before he dies. The man who never reads lives only once.."</p>
-                <table border="1">
+                <table border="1" id="books">
                     <tr>
                         <td>
                             <input type="checkbox" id="order1" name="order">
@@ -83,37 +83,64 @@
                     </tr>
                     <tr>
                         <td>
-                            <input type="checkbox" id="order5" name="order"><label for="order5"><em>Wizard of Earthsea</em></label><br>
-                            <img src="pics/earthsea.jpg" height="100"><br>
-                            <span>Php 15,678</span><br>
-                            <label for="quantity5">Quantity:&nbsp;</label>
+                            <input type="checkbox" id="order5" name="order">
+                            <label for="order5"><em>Wizard of Earthsea</em></label>
+                        </td>
+                        <td><img src="pics/earthsea.jpg" height="100"></td>
+                        <td><span>Php 16,900</span></td>
+                        <td>
+                            <label>Quantity:&nbsp;</label>
                             <input type="text" id="quantity5" name="quantity5" size="2">
                         </td>
+                    </tr>
+                    <tr>
                         <td><input type="checkbox" id="order6" name="order"><label for="order6"><em>Dracula</em></label>
-                            <img src="pics/dracula.jpg" height="100"><br>
-                            <span>Php 15,678</span><br>
+                        </td>
+                        <td>
+                            <img src="pics/dracula.jpg" height="100">
+                        </td>
+                        <td>
+                            <span>Php 15,678</span>
+                        </td>
+                        <td>
                             <label for="quantity6">Quantity:&nbsp;</label>
                             <input type="text" id="quantity6" name="quantity6" size="2">
                         </td>
+                    </tr>
+                    <tr>
                         <td><input type="checkbox" id="order7" name="order"><label for="order7"><em>White
                                     Nights</em></label>
+                        </td>
+                        <td>
                             <img src="pics/cat1.jpg" height="100"><br>
+                        </td>
+                        <td>
                             <span>Php 15,678</span><br>
+                        </td>
+                        <td>
                             <label for="quantity7">Quantity:&nbsp;</label>
                             <input type="text" id="quantity7" name="quantity7" size="2">
                         </td>
-                        <td><input type="checkbox" id="order8" name="order"><label for="order8"><em>White
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox" id="order7" name="order"><label for="order7"><em>White
                                     Nights</em></label>
+                        </td>
+                        <td>
                             <img src="pics/cat1.jpg" height="100"><br>
+                        </td>
+                        <td>
                             <span>Php 15,678</span><br>
-                            <label for="quantity8">Quantity:&nbsp;</label>
-                            <input type="text" id="quantity8" name="quantity8" size="2">
+                        </td>
+                        <td>
+                            <label for="quantity7">Quantity:&nbsp;</label>
+                            <input type="text" id="quantity7" name="quantity7" size="2">
                         </td>
                     </tr>
                 </table>
                 <h3>Antiques</h3>
                 <p>"The past provides a wealth of knowledge about ourselves if only we can face it fearlessly"</p>
-                <table>
+                <table id="antiques">
                     <tr>
                         <td><input type="checkbox" id="order9" name="order"><label for="order9"><em>White
                                     Nights</em></label>
@@ -178,7 +205,7 @@
                 </table>
                 <h3>Paintings</h3>
                 <p>"Painting is way to forget life. It is a cry in the night, a strangled laugh"</p>
-                <table>
+                <table id="paintings">
                     <tr>
                         <td><input type="checkbox" id="order17" name="order"><label for="order17"><em>White
                                     Nights</em></label>
@@ -210,9 +237,9 @@
                         </td>
                     </tr>
                 </table>
-                <h3>Lost Technology</h3>
-                <p>"Technology is the best when it brings people together"</p>
-                <table>
+                <h3>Clothes</h3>
+                <p>""</p>
+                <table id="clothes">
                     <tr>
                         <td><input type="checkbox" id="order21" name="order21"><label for="order21"><em>White
                                     Nights</em></label>
@@ -271,6 +298,7 @@
 
                         </td>
                         <td>
+                            <div>
                             <h3>Mode of Payment</h3>
                             <br>
                             <input type="radio" id="card" name="pay">
@@ -280,9 +308,9 @@
                             <input type="radio" id="gcash" name="pay">
                             <label for="gcash">GCash</label>
                             <br>
-                            <h6>We Accept:</h6>
-                            <img alt="card1">&nbsp;&nbsp;
-                            <img alt="card2">
+                            <h6>Coupons We Accept:</h6>
+                            <img alt="coupon1">&nbsp;&nbsp;
+                            <img alt="coupon2">
                         </td>
                     </tr>
                     <tr>
