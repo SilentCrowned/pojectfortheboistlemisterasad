@@ -35,9 +35,18 @@ body {
     font-weight: 900;
 }
 
+.item {
+  font-weight:900;
+  background-color:pink;
+}
+
 #bundle {
     background-color: rgb(217, 159, 255);
     color:black;
+}
+
+td {
+    padding:10px;
 }
 
 .menu {
@@ -47,5 +56,9 @@ body {
     padding: 10px 5px 10px 5px;
     border-spacing: 7px;
     background-color: hotpink;
+}
+
+.image {
+    height:100px;
 }
 
