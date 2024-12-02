@@ -42,8 +42,8 @@ table {
 
 .menu {
     background-color: #dfc1a9;
-    width: 350;
-    height: 250;
+    width: 40pc;
+    height: 30pc;
 }
 
 .price {
@@ -52,17 +52,17 @@ table {
     color: #b69b7d;
     font-family: cursive;
     font-size:x-small;
-    width: 2cm;
+    width: 3cm;
     height: 20px;
-    margin: 0px 30px 0px 30px;;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-.option {
-    padding: 1cm;
-}
+
 
 .menu td {
     border: solid #ecd495;
+
 }
 
 .menu label {
